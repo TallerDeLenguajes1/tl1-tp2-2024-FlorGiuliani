@@ -1,0 +1,4 @@
+Punto 2f
+- En el commit en donde me abre la aplicación (el último que hice) no puedo ver el archivo tp2_1_2.c porque ese está en la rama Opcion_2 y yo estoy parada en la rama principal, de todas formas si hago click en el commit anterior puedo ver el archivo.
+- Ahora me aparece el archivo Respuestas.txt
+- Ahora veo que las dos ramas se unieron tanto en el gráfico como al ver los archivos que me aparecen 
