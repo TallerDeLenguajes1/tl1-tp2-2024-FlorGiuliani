@@ -6,15 +6,18 @@
 int main()
 {
 int i,j;
-int mt[N][M];
+double *punteromt;
+double mt[N][M];
+punteromt = mt;
 
 for(i = 0;i<N; i++)
 {
     for(j = 0;j<M; j++)
     {
         //mt[i][j]=1+rand()%100;
-        *(mt+(i*M+j)) = 1+rand()%100;
-        printf("%lf ", mt[i][j]);
+        *(punteromt+i*M+j) = 1+rand()%100;
+        //printf("%lf ", mt[i][j]);
+        printf("%lf ", *(punteromt+i*M+j));
     }
 printf("\n");
 }
